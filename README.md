@@ -5,14 +5,14 @@
 * **Step 2:** Figure out it is because you don't actually have the real version of Ubuntu installed!
 * **Step 3:** Make sure you have properly installed ubuntu
 * **Step 4:** Run these comands
-  * $${\color{blue}install sudo apt-get}$$
-  * sudo apt-get install docker.io
+  * $${\color{blue}sudo apt-get update}$$
+  * $${\color{blue}sudo apt-get install docker.io}$$
   * press y to continue installing
-  * sudo service docker start
+  * $${\color{blue}sudo service docker start}$$
 * You have downloaded docker! 
 * Type in status to see that your docker is running
 * **Step 5:** Install the container (openvas)
-  * sudo docker run -d -p443:443 --name openvas mikesplain/openvas
+  * sudo docker run -d -p443:443 --name openvas mikesplain/openvas $${\color{blue}Blue}$$
 * This step will take about 5 mins to install
 * Even after the "install" is done, the security functions of opencvas can take up to 20 mins to install
    * To check if the security functions are installed, check sescurity monitor and if your CPU useage is very high, it is still downloading
