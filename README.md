@@ -12,7 +12,7 @@
 * You have downloaded docker! 
 * Type in status to see that your docker is running
 * **Step 5:** Install the container (openvas)
-  * sudo docker run -d -p443:443 --name openvas mikesplain/openvas $${\color{blue}Blue}$$
+  * $${\color{blue}Bsudo docker run -d -p443:443 --name openvas mikesplain/openvas}$$
 * This step will take about 5 mins to install
 * Even after the "install" is done, the security functions of opencvas can take up to 20 mins to install
    * To check if the security functions are installed, check sescurity monitor and if your CPU useage is very high, it is still downloading
