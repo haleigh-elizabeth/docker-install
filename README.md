@@ -1,16 +1,11 @@
 # docker-install
 ##installing docker.io and openvas
 ---
-<style>
-r { color: Red }
-o { color: Orange }
-g { color: Green }
-</style>
 * **Step 1:** Trouble shoot a project for hours, cry, then ask Codi why it won't work
 * **Step 2:** Figure out it is because you don't actually have the real version of Ubuntu installed!
 * **Step 3:** Make sure you have properly installed ubuntu
 * **Step 4:** Run these comands
-  * install<r>sudo apt-get</r>
+  *  <span style="color:blue">some install sudo apt-get text</span>
   * sudo apt-get install docker.io
   * press y to continue installing
   * sudo service docker start
