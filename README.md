@@ -25,3 +25,14 @@
 * **Step 7:** Login!
    * Username: admin
    * Password: admin
+* **Step8:** Scanning a network!
+   * Under the Configuration tab on openvas, click "targets"
+   * Name: Virtual Subnet
+   * IP: 10.0.1.1.255
+   * Now under the Scans tab, click tast
+   * Upper Left hand corner, click the blue square with s star in it and then click new task
+       * Name: Virtual Subnet
+       * Click Create
+   * Bottom right corner, click the green play button (run)
+   * Click refresh every now and the
+**You have run your first scan using openvas!**
