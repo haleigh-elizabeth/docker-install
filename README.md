@@ -5,7 +5,7 @@
 * **Step 2:** Figure out it is because you don't actually have the real version of Ubuntu installed!
 * **Step 3:** Make sure you have properly installed ubuntu
 * **Step 4:** Run these comands
-  *  <span style="color:blue">some install sudo apt-get text</span>
+  *  <span style="color:red">some install sudo apt-get text</span>
   * sudo apt-get install docker.io
   * press y to continue installing
   * sudo service docker start
