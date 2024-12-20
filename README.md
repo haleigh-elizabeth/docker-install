@@ -16,3 +16,12 @@
 * This step will take about 5 mins to install
 * Even after the "install" is done, the security functions of opencvas can take up to 20 mins to install
    * To check if the security functions are installed, check sescurity monitor and if your CPU useage is very high, it is still downloading
+Step 6: Run openvas
+* open a web browser (I used firefox)
+* type: https://localhost/
+* A security risk window will pop up but do not worry! We just dont have a signed certificate yet.
+    * click "advanced"
+    * click "accept risk and continue"
+Step 7: Login!
+* Username: admin
+* Password: admin
